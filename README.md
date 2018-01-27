@@ -4,14 +4,19 @@
     ruby 2.5.0
     Rails 5.1.4
     
-* System dependencies
-    E' necessarrio installare minimagic
-    In ambiente linux usare i sueguenti comandi
+* System dependencies.
+    E' necessarrio installare Imagemagick per ridivensuione le immagnin caricate dagli utenti
+    In ambiente Linux usare i seguenti comandi:
     ```
     sudo apt-get update
     sudo apt-get install imagemagick
-    
     ```
+    In OSX usare il seguente comando:
+    ```
+    brew install imagemagick
+    ```
+    
+
 
 * Configuration
 
