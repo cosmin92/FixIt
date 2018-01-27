@@ -1,5 +1,36 @@
 # FixIt
 
+* Ruby version
+    ruby 2.5.0
+    Rails 5.1.4
+    
+* System dependencies
+    E' necessarrio installare minimagic
+    In ambiente linux usare i sueguenti comandi
+    ```
+    sudo apt-get update
+    sudo apt-get install imagemagick
+    
+    ```
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+
+
+
 L’obiettivo del progetto è quello di creare un sistema che possa raccogliere informazioni riguardanti disagi e disservizi presenti nel territorio pubblico. Queste informazioni vengono inserite dai cittadini, purché essi abbiano un profilo riconosciuto dal sistema (chiameremo questa tipologia di utenti Notifier), attraverso un modulo che definiremo più avanti e che chiameremo Report. Il sistema, oltre ai profili degli utenti e ai Report, deve gestire quelli che sono i destinatari di tali Report. Questi ultimi sono gruppi, Division, e sottogruppi di dipendenti, Employee, che gestiscono diverse categorie di Report e appartengono ciascuno a un determinato ente pubblico o privato di interesse pubblico (Organization).
 Attraverso le coordinate polari associate a ciascun Report, il sistema deve identificare la Division specifica destinataria del Report stesso. Quest’ultima mantiene le informazioni necessarie per tracciare i confini del proprio territorio di competenza per ciascuna categoria di Report.
 Ciascun Report attraversa diversi stati dal momento della creazione al momento in cui viene archiviato (operazione fatta dagli Employee). In particolare e in prima analisi definiamo i seguenti stati:
